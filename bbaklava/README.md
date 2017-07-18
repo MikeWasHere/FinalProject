@@ -84,3 +84,37 @@ angular.module('sidebar', [])
 
 ```
 So might look complex but, very simple, let me explain. That part where it says ```Javascript .directive("rightsidebar", function() ``` the ("rightsidebar") is what dictates the name of the custom HTML ```HTML <rightsidebar></rightsidebar>```. In the Return section, there is a "template" and there you would put what you would want it to render. in this case it would render a div that would say "here is some right sidebar magic for ya.". Your problably wondering what the "restict: E" is used for. It is just saying that this will restrict this directive to Elements.
+
+<a name="animation"></a>
+## Using Animation
+
+In this project I added some CSS Animation to the site to make it look more pleasing to the user. Even though the animations where subtle, they are enough to make the site look more organic and lively. For instance, when a user would click on a link to display different content, it would fade in or fade slide up instead of just popping right in. The wonderful thing that i like about the CSS animations is that it makes the site look and feel more smoother, depending on how you use it. In this project I used [Animate.css](https://animate.css) and [hover.css](https://hover.css) to give the site some spunk. over here I am using animate.css to make the content fadein in an upward direction when the content is called.
+```
+html
+
+<div class="aboutBody animated fadeInUp"> <!-- animate.css is called here in parent element -->
+	<h1>About Us</h1>
+
+	<p>Picture a 23-year-old young woman carrying a baby in one hand and a tray of Baklava in the other. That was my Mother taking her boss one of her specialty pastries and that was me gazing at what I soon found out was my destiny. The name was created to honor our Grandmother, Berjuhi Bakalian. My Grandmother passed her recipes down to my Mother, who passed it down to me.</p>
+</div>
+ 
+<img src="http://i.imgur.com/RuwRkGK.jpg" alt="Christine Kutlu Picture" width="400" height="423" id="kutluPic" class="animated fadeInRight">
+
+```
+
+In this following example I am going to show you how we used Hover animation on the side bar. So basically what happends is when you hover over a side element, it will slightly grow. As you can see all I did was add the class "hvr-grow" and the animation will be set.
+```
+html
+
+<div>
+    <ul>
+        <li><a href="#/"><img src="../img/home-icon.svg" class="hvr-grow" width="36" height="36"><p class="show animated fadeIn">Home</p></a></li>
+        <li><a href="#/store"><img src="../img/store-icon.svg" class="hvr-grow" width="36" height="36"><p class="show animated fadeIn">Store</p></a></li>
+        <li><a href="#/about"><img src="../img/about-icon.svg" class="hvr-grow" width="36" height="36"><p class="show animated fadeIn">About us</p></a></li>
+        <li><a href="#/ingredients"><img src="../img/ingredients-icon.svg" class="hvr-grow" width="36" height="36"><p class="show animated fadeIn">Ingredients</p></a></li>
+        <li><a href="#/social"><img src="../img/social-icon.svg" class="hvr-grow" width="36" height="36"><p class="show animated fadeIn">Social</p></a></li>
+        <li><a href="#/contact"><img src="../img/contact-icon.svg" class="hvr-grow" width="36" height="36"><p class="show animated fadeIn">Contacts</p></a></li>
+    </ul>
+</div>
+```
+[Hover.css](https://hover.css) has a lot of different animations you can use, if you like animations I strongly recommend you check what they have, super easy to set up.
