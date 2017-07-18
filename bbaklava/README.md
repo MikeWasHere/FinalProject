@@ -3,7 +3,7 @@
 
 1. [Introduction](#introduction)
 2. [Using Angular Routes](#angularRoutes)
-3. [Using Models](#usingModels)
+3. [Using Directives](#usingDirectives)
 4. [Using Animation](#animation)
 
 <a name="introduction"></a>
@@ -67,3 +67,20 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 }]);
 ```
 As you can see, if the URL reads ```websitename.com/about``` then the About HTML will load in the ```HTML <div ng-view></div>``` and replace whats already in there with the about HTML template. Only the content changes, not the page - and that my friends is the beauty of angular routes. P.S. Routes also lets you load in the controllers of your choosing with each template which I find pretty awesome.
+
+<a name="usingDirectives"></a>
+## Using Directives
+
+Ahh, Angular Directives. I find Directives to be pretty freaking cool in angular and heres why. What directives are in a nutshell, they are your own personalized HTML tags that load what you want, where you want just by adding a tag to the HTML. Lets say you call a Directive ```HTML <rightsidebar></rightsidebar>``` <---- That tag right there will load the content you out in it, so lets take a look on how that looks. 
+```Javascript
+
+angular.module('sidebar', [])
+.directive("rightsidebar", function() {
+  return {
+    restrict: "E",
+    template: "<div>here is some right sidebar magic for ya.</div>"
+  }
+});
+
+```
+So might look complex but, very simple, let me explain. That part where it says ```Javascript .directive("rightsidebar", function() ``` the ("rightsidebar") is what dictates the name of the custom HTML. In the Return section, there is a "template" and there you would put what you would want it to render. in this case it would render a div that would say "here is some right sidebar magic for ya.". Your problably wondering what the "restict: E" is used for. It is just saying that this will restrict this directive to Elements.

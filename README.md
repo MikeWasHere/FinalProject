@@ -8,7 +8,7 @@ This is a repo showing the type of knowledge I know when it comes to HTML,CSS, J
 * **[BBaklava](./bbaklava)** 
     * [Introduction](./bbaklava#introduction)
     * [Using angular routes](./bbaklava#angularRoutes)
-    * [Using Models](./bbaklava#usingModels)
+    * [Using Directives](./bbaklava#usingDirectives)
     * [Using Animations](./bbaklava#animation)
 
 * **Atlas Roofing Company** 
