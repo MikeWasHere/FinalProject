@@ -1,4 +1,4 @@
-![brand image](./img/bbaklava-new-logo.png)
+![brand image](../img/bbaklava-new-logo.png)
 # Overview of what I did in the BBaklava Project
 ## Table of Contents
 
