@@ -12,18 +12,20 @@ This is a repo showing the type of knowledge I know when it comes to HTML,CSS, J
     * [Using Animations](./bbaklava#animation)
 
 * **Atlas Roofing Company** 
-    * Setting up the CMS
-    * Adding the templates
-    * Including different HTML files with PHP
+    * [Introduction](./atlasRoofing#introduction)
+    * [Setting up the CMS](./atlasRoofing#CMS)
+    * [Including PHP Templates](./atlasRoofing#templates)
     
 * **DiversiTech** 
-    * Importing Assets
-    * Responsive design (Mobile page VS Responsive page)
+    * [Introduction](./diversitech#introduction)
+    * [Importing Assets](./diversitech#assets)
+    * [Responsive design](./diversitech#responsive)
     
 * **Genius Plaza** 
-    * Working with Python
-    * Rendering templated using Python
-    * Inheriting parent templates
+    * [Introduction](./geniusplaza#introduction)
+    * [Working with Python](./geniusPlaza#python)
+    * [Rendering templated using Python](./geniusPlaza#render)
+    * [Inheriting parent templates](./geniusPlaza#inherit)
     
 ## Contact me
 **E-mail:** xtrjago@gmail.com
