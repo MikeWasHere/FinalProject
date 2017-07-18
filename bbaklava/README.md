@@ -22,7 +22,7 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 
 	$routeProvider
 
-		// home content
+        // home content
 		.when('/', {
 			templateUrl: 'views/home.html',
 			controller: 'MainController'
@@ -64,8 +64,6 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			controller: 'NerdController'	
 		});
 
-	// $locationProvider.html5Mode(true);
-
 }]);
 ```
-As you can see, if the URL reads ```websitename.com/about``` then the About HTML will load in the ```HTML <div ng-view></div>``` and replace whats already in there with the about HTML template. Routes also lets you load in the controllers of your choosing with each template which i find pretty awesome.
+As you can see, if the URL reads ```websitename.com/about``` then the About HTML will load in the ```HTML <div ng-view></div>``` and replace whats already in there with the about HTML template. Only the content changes, not the page - and that my friends is the beauty of angular routes. P.S. Routes also lets you load in the controllers of your choosing with each template which I find pretty awesome.
