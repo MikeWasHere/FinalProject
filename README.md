@@ -11,17 +11,17 @@ This is a repo showing the type of knowledge I know when it comes to HTML,CSS, J
     * [Using Directives](./bbaklava#usingDirectives)
     * [Using Animations](./bbaklava#animation)
 
-* **Atlas Roofing Company** 
+* **[Atlas Roofing Company](./atlasRoofing)** 
     * [Introduction](./atlasRoofing#introduction)
     * [Setting up the CMS](./atlasRoofing#CMS)
     * [Including PHP Templates](./atlasRoofing#templates)
     
-* **DiversiTech** 
+* **[DiversiTech](./diversitech)** 
     * [Introduction](./diversitech#introduction)
     * [Importing Assets](./diversitech#assets)
     * [Responsive design](./diversitech#responsive)
     
-* **Genius Plaza** 
+* **[Genius Plaza](./geniusplaza)** 
     * [Introduction](./geniusplaza#introduction)
     * [Working with Python](./geniusPlaza#python)
     * [Rendering templated using Python](./geniusPlaza#render)
