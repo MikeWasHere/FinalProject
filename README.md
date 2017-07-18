@@ -13,7 +13,7 @@ This is a repo showing the type of knowledge I know when it comes to HTML,CSS, J
 
 * **[Atlas Roofing Company](./atlasRoofing)** 
     * [Introduction](./atlasRoofing#introduction)
-    * [Setting up the CMS](./atlasRoofing#CMS)
+    * [Understanding the CMS](./atlasRoofing#CMS)
     * [Including PHP Templates](./atlasRoofing#templates)
     
 * **[DiversiTech](./diversitech)** 
