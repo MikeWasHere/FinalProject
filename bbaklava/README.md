@@ -102,7 +102,7 @@ html
 
 ```
 
-In this following example I am going to show you how we used Hover animation on the side bar. So basically what happends is when you hover over a side element, it will slightly grow. As you can see all I did was add the class "hvr-grow" and the animation will be set.
+In this following example I am going to show you how we used Hover animation on the side bar. So basically what happends is when you hover over a side element, it will slightly grow. As you can see all I did was add the ```class="hvr-grow"``` and the animation will be set.
 ```
 html
 
