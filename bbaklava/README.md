@@ -83,4 +83,4 @@ angular.module('sidebar', [])
 });
 
 ```
-So might look complex but, very simple, let me explain. That part where it says ```Javascript .directive("rightsidebar", function() ``` the ("rightsidebar") is what dictates the name of the custom HTML. In the Return section, there is a "template" and there you would put what you would want it to render. in this case it would render a div that would say "here is some right sidebar magic for ya.". Your problably wondering what the "restict: E" is used for. It is just saying that this will restrict this directive to Elements.
+So might look complex but, very simple, let me explain. That part where it says ```Javascript .directive("rightsidebar", function() ``` the ("rightsidebar") is what dictates the name of the custom HTML ```HTML <rightsidebar></rightsidebar>```. In the Return section, there is a "template" and there you would put what you would want it to render. in this case it would render a div that would say "here is some right sidebar magic for ya.". Your problably wondering what the "restict: E" is used for. It is just saying that this will restrict this directive to Elements.
