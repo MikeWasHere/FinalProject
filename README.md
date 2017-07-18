@@ -5,10 +5,11 @@ This is the repo for Final Project
 This is a repo showing the type of knowledge I know when it comes to HTML,CSS, Javascript, Jquery, Python, PHP and CSS animations.
 
 ## Table of Contents
-* **BBaklava** 
-    * Using angular routes
-    * Using Models
-    * Using Animations
+* **[BBaklava](./bbaklava)** 
+    * [Introduction](.bbaklava/#introduction)
+    * [Using angular routes](.bbaklava/#angularRoutes)
+    * [Using Models](.bbaklava/#usingModels)
+    * [Using Animations](.bbaklava/#animation)
 
 * **Atlas Roofing Company** 
     * Setting up the CMS
