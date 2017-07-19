@@ -6,6 +6,7 @@
 2. [Working with Python](#python)
 3. [Rendering templated using Python](#render)
 4. [Inheriting parent templates](#inherit)
+5. [spining up a python project](#startupPython)
 
 <a name="introduction"></a>
 ## Introduction
@@ -21,4 +22,8 @@
 
 <a name="inherit"></a>
 ## Inheriting parent templates
+
+
+<a name="startupPython"></a>
+## Spining up a python project
 
