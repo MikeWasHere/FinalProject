@@ -32,30 +32,8 @@ In order to make things responsive, Media Queries will be your best friend. ```C
 
 **Responsive Media:**
 So, when making things responsive, you would want to make sure the media goes with the flow of things as well. I cant tell you how many times this little piece of knowledge gets over looked in websites. There are many different ways on going about how to deal with media. Some site load in a different version of the resource depending on which media query it hits like so:
-```
-HTML/CSS
-
-<style>
-#desktop-img {
-    display: block;
-}
-#mobile-img {
-    display none;
-}
-@media only screen and (max-width: 500px) {
-    #mobile-img {
-        display: block;
-    }
-    #desktop-img {
-        display: none;
-    }
-}
-</style>
-
-<img id="desktop-img" src="exampleofdesktop.png" alt="desktop example" >
-
-<img id="mobile-img" src="exampleofmobile.png" alt="mobile example" >
-```
+<p data-height="265" data-theme-id="0" data-slug-hash="Zygqvy" data-default-tab="html,result" data-user="MikeWasHere" data-embed-version="2" data-pen-title="Zygqvy" class="codepen">See the Pen <a href="https://codepen.io/MikeWasHere/pen/Zygqvy/">Zygqvy</a> by Michael Perez (<a href="https://codepen.io/MikeWasHere">@MikeWasHere</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 This states that once the screen hits 500px I want the desktop picture to not show and show the mobile version of the picture.
 Another way of making the resource responsive is by putting the img inside of a container and giving the container a set width with % instead of pixels.
 ```
