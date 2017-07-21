@@ -26,5 +26,54 @@ Lets say you want to import some videos, you can do that by calling the video ta
 You would want to include mp4 files considering that most browsers load mp4 files, you would also have an .ogg file which mostly stores artist and track information as well as metadata. Run this and you're video should be showing.
 
 <a name="responsive"></a>
-## Responsive Design
+## Responsive Design VS Mobile Site
+Responsiveness is a really big thing. Like, really big. Making a website is only half of it. Making sure it is responsive is the other half. Some companies like to take different approaches when it comes to their mobile version of their site. The main two are Responsive design which makes the site fall into place depending on the size of the screen the elements on the page will change order to better situate itself. Then there is Mobile site which is a site strictly for mobile view, usually a site will have [m.facebok.com](m.facebook.com) for instance is the mobile version of Facebook. It senses if your using a mobile browser and it will show the mobile site instead of the regular. Which one should I use? it all depends. A huge platform like Facebook would benefit having a mobile version of their site because they would like to downsize their experience and not show so much / load so much like their desktop site. Therefor making a mobile version would be benefitial to them. Responsive would suit just about anything else out there. As long as your site isnt a HUGE platform with different styling choices and features you want to toggle between mobile and desktop, then responsiveness is for you. 
+In order to make things responsive, Media Queries will be your best friend. ```CSS  @media only screen and (max-width: 500px) { styling goes here }``` This means that when the screen resolution hits 500px this styling inside will take place. There is also ```CSS  @media only screen and (min-width: 500px) { styling goes here }``` Which means any styling that falls below 500px, the styling will no longer take affect. And last but not least you can also use both of them in one like ```CSS  @media only screen (min-width: 400px) and (max-width: 500px) { styling goes here }``` which states that the styling will only take place when the screen are between 400px and 500px. Anything above 500px will not show and anything below 400px will not show.
 
+**Responsive Media:**
+So, when making things responsive, you would want to make sure the media goes with the flow of things as well. I cant tell you how many times this little piece of knowledge gets over looked in websites. There are many different ways on going about how to deal with media. Some site load in a different version of the resource depending on which media query it hits like so:
+```
+HTML/CSS
+
+<style>
+#desktop-img {
+    display: block;
+}
+#mobile-img {
+    display none;
+}
+@media only screen and (max-width: 500px) {
+    #mobile-img {
+        display: block;
+    }
+    #desktop-img {
+        display: none;
+    }
+}
+</style>
+
+<img id="desktop-img" src="exampleofdesktop.png" alt="desktop example" >
+
+<img id="mobile-img" src="exampleofmobile.png" alt="mobile example" >
+```
+This states that once the screen hits 500px I want the desktop picture to not show and show the mobile version of the picture.
+Another way of making the resource responsive is by putting the img inside of a container and giving the container a set width with % instead of pixels.
+```
+HTML/CSS
+
+<style>
+.img-container {
+    width: 50%;   <---- Giving the container a width of 50%, The picture will always be, no matter what size, 50% of its container.
+}
+
+.img-container > img {
+    width: 100%;    <---- Making sure the image takes up 100% of the container that it is in.
+}
+</style>
+
+<div class="img-container">
+    <img id="responsive-img" src="exampleofresponsive.png" alt="responsive example" >
+</div>
+
+```
+In this example the whole image is fluid, it will adjust itself when to exactly what you tell it, no matter what screen size.
