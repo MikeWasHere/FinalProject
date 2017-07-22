@@ -29,6 +29,8 @@ This is a repo showing the type of knowledge I know when it comes to HTML,CSS, J
     * [Inheriting parent templates](./geniusPlaza#inherit)
     * [Spining up a python project](./geniusPlaza#startupPython)
     
+* [CSS Animation](./CSS-animation)
+
 ## Contact me
 **E-mail:** xtrjago@gmail.com
 **Phone:** (201)-952-4990
