@@ -111,8 +111,25 @@ Python
 {% load parentTemplate %} #Honestly you can call this what you would like in the parent element
 #from here you can add your code of what you want and anything from the parent element that you just loaded in will also take place in this template
 ```
-Just like that you can have the parent template included into your template. Kindof how the includes work for PHP.
+Just like that you can have the parent template included into your template. Kind of how the includes work for PHP.
 
 <a name="startupPython"></a>
 ## Spining up a python project
+So, you want to start up a Python project. Lets be clear, Python is used more many things but if you would like to use it for making website you will need to use a framework that supports that. [Django](https://realpython.com/learn/start-django/) is one of those Frameworks. 
+I will do a quick run through on how to spin up a project but i strongly recommend seeing more of the details on [realpython.com](https://realpython.com/learn/start-django/) to see everything and anything you need.
+First things first you will need to run a few scripts in order to get your project in place. Go to the links i provided above and it will show what scripts to run. 
+Second thing you would want to do is make sure your file structure looks similar to this:
+```
+File Structure
 
+djangoProjectName
+    manage.py
+    siteName
+        settings.py
+        urls.py
+        wsgi.py
+        __init__.py
+```
+
+Manage.py is the file that will help you run and manage your project. ```settings.py``` contains the configuration of your site, all the things you want installed and basic settings.
+Next you will want to set up a database for the project, If you ran the scripts then this will already be inside your ```settings.py``` file. Just make sure you put in the right information so it properly configures to your database. Now its time to Make Migrations. In your ```manage.py``` file your going to run a command called "makemigrations", soon after thats done your going to run another one called "migrate" what this does is it configures your project depending on your ```settings.py``` file and other things as well. After that you will run "runserver" on your command line and WALA! Django should be up and running and you can start creating the things you need. Have fun! If you want to learn how to spin up a Django project in more detail check out [realpython.com](https://realpython.com/learn/start-django/) they have a great resource on how to get up and running on with Django. Hope this helps!
