@@ -27,6 +27,7 @@ This is a repo showing the type of knowledge I know when it comes to HTML,CSS, J
     * [Working with Python](./geniusPlaza#python)
     * [Rendering templated using Python](./geniusPlaza#render)
     * [Inheriting parent templates](./geniusPlaza#inherit)
+    * [Spining up a python project](./geniusPlaza#startupPython)
     
 ## Contact me
 **E-mail:** xtrjago@gmail.com
