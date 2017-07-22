@@ -13,6 +13,6 @@ Things have ben shifting in way that CSS animations are becoming more and more u
 There are many different libraries that are there that help you get the animations up and running. The great thing about them is that there super easy to install and get them going. For instance, lets say you want to use some hover effects you will go to one of my favorite sites for hover animations [hover.css](http://ianlunn.github.io/Hover/) This guy (Ian Lunn) shares this library for free for any one to use. So lets say we want to add that when you hover over a button, it buzzes. What do you do?
 * Step 1: Download the library / Put the ```hover.css``` file inside your CSS directory.
 * Step 2: Apply the class ```class="hvr-buzz"``` to the button element, it should look like this ```<button class="hvr-buzz">Click me!</button> ```
-THATS IT! its that simple implementing hover.css animations to your site. Some other animations will require more complex timing and other ways of doing it by using ```@keyframes``` to control every aspect of the element.
+* THATS IT! its that simple implementing hover.css animations to your site. Some other animations will require more complex timing and other ways of doing it by using ```@keyframes``` to control every aspect of the element.
 
 ## SVG
