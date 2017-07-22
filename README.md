@@ -22,8 +22,8 @@ This is a repo showing the type of knowledge I know when it comes to HTML,CSS, J
     * [Importing Assets](./diversitech#assets)
     * [Responsive design](./diversitech#responsive)
     
-* **[Genius Plaza](./geniusplaza)** 
-    * [Introduction](./geniusplaza#introduction)
+* **[Genius Plaza](./geniusPlaza)** 
+    * [Introduction](./geniusPlaza#introduction)
     * [Working with Python](./geniusPlaza#python)
     * [Rendering templated using Python](./geniusPlaza#render)
     * [Inheriting parent templates](./geniusPlaza#inherit)
