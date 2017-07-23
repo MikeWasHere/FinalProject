@@ -13,6 +13,7 @@ Things have ben shifting in way that CSS animations are becoming more and more u
 There are many different libraries that are there that help you get the animations up and running. The great thing about them is that there super easy to install and get them going. For instance, lets say you want to use some hover effects you will go to one of my favorite sites for hover animations [hover.css](http://ianlunn.github.io/Hover/) This guy (Ian Lunn) shares this library for free for any one to use. So lets say we want to add that when you hover over a button, it buzzes. What do you do?
 * Step 1: Download the library / Put the ```hover.css``` file inside your CSS directory.
 * Step 2: Apply the class ```class="hvr-buzz"``` to the button element, it should look like this ```<button class="hvr-buzz">Click me!</button> ```
-* THATS IT! its that simple implementing hover.css animations to your site. Some other animations will require more complex timing and other ways of doing it by using ```@keyframes``` to control every aspect of the element.
+* THATS IT! its that simple implementing hover.css animations to your site. Some other animations will require more complex timing and other ways of doing it by using ```@keyframes``` to control every aspect of the element and create your own animation.
 
 ## SVG
+Good 'ol SVG's. These bad boys are amazing when designing a site because the beautiful thing about SVG's is that they allow you to scale SVG icon to any size and it wont lose it resolution. It will still look as crisp as you wanted it to look. Its all about the user experience and how it fits into your site. look at this example by [Lucas Bebber](https://codepen.io/lbebber/pen/LELBEo) Where makes a gooey menu that has a subtle animation that looks real nice!
