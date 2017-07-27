@@ -1,5 +1,5 @@
 ![brand image](../img/atlas-logo.png)
-# Atlas Roofing - The PHP project
+# The PHP project - Atlas Roofing
 ## Table of Contents
 
 1. [Introduction](#introduction)

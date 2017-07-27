@@ -1,5 +1,5 @@
 ![brand image](../img/bbaklava-new-logo.png)
-# Overview of what I did in the BBaklava Project
+# Overview of what I did in Angular - the BBaklava Project
 ## Table of Contents
 
 1. [Introduction](#introduction)

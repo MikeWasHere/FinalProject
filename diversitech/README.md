@@ -1,5 +1,5 @@
 ![brand image](../img/DiversiTech-logo.png)
-# Diversitech Project
+# Responsice Design - Diversitech Project
 ## Table of Contents
 
 1. [Introduction](#introduction)
