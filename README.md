@@ -12,10 +12,10 @@ This is a repo showing the type of knowledge I know when it comes to HTML,CSS, J
     * [Using Animations](./angular-project#animation)
 
 * **[PHP CMS](./PHP-CMS-project)** 
-    * [Introduction](./PHP-CMS#introduction)
-    * [Understanding the CMS](./PHP-CMS#CMS)
-    * [Including PHP Templates](./PHP-CMS#templates)
-    * [MVC Frame work](./PHP-CMS#mvc)
+    * [Introduction](./PHP-CMS-project#introduction)
+    * [Understanding the CMS](./PHP-CMS-project#CMS)
+    * [Including PHP Templates](./PHP-CMS-project#templates)
+    * [MVC Frame work](./PHP-CMS-project#mvc)
     
 * **[Responsive Design](./Responsiveness)** 
     * [Introduction](./Responsiveness#introduction)
