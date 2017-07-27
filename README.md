@@ -34,5 +34,6 @@ This is a repo showing the type of knowledge I know when it comes to HTML,CSS, J
 ## Contact me
 **E-mail:** xtrjago@gmail.com
 **Phone:** (201)-952-4990
-*[Facebook](https://www.facebook.com/michael.s.perez.10)
-*[Instagram](https://www.instagram.com/kutekente)
+### Social Media
+[Facebook](https://www.facebook.com/michael.s.perez.10)
+[Instagram](https://www.instagram.com/kutekente)
