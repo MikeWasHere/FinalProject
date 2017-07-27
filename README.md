@@ -11,7 +11,7 @@ This is a repo showing the type of knowledge I know when it comes to HTML,CSS, J
     * [Using Directives](./angular-project#usingDirectives)
     * [Using Animations](./angular-project#animation)
 
-* **[PHP CMS](./PHP-CMS)** 
+* **[PHP CMS](./PHP-CMS-project)** 
     * [Introduction](./PHP-CMS#introduction)
     * [Understanding the CMS](./PHP-CMS#CMS)
     * [Including PHP Templates](./PHP-CMS#templates)
